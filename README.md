@@ -4,7 +4,7 @@ Diário técnico em Markdown, versionado aqui no GitHub. É sobretudo um registo
 
 ## Sobre o blog
 
-Textos informais sobre **bugs**, **ferramentas**, **tecnologia** e **opiniões pessoais** — o que fizer sentido documentar no momento. Não é um blog de «autoridade»: é experiência partilhada à descoberta.
+Textos informais sobre **bugs**, **ferramentas**, **tecnologia** e **opiniões pessoais** — o que fizer sentido documentar no momento.
 
 ## O que podes encontrar aqui
 
@@ -29,3 +29,7 @@ Exemplo de caminho: `posts/2026/05/2026-05-02-notas-sobre-um-bug-estranho.md`
 | | | | |
 
 Para ver o que já existe, navega por `posts/AAAA/MM/` ou por `drafts/` para rascunhos em curso.
+
+## Licença
+
+Este repositório está sob [licença MIT](LICENSE).
