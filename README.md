@@ -10,7 +10,7 @@ Textos informais sobre **bugs**, **ferramentas**, **tecnologia** e **opiniões p
 
 - Artigos em Markdown com frontmatter YAML (`title`, `date`, `tags`, `status`, etc.).
 - Rascunhos e trabalhos em curso em `drafts/`.
-- Posts organizados por ano em `posts/AAAA/`.
+- Posts organizados por **ano** e **mês** em `posts/AAAA/MM/` (`MM` de `01` a `12`).
 - Imagens de apoio em `assets/images/`.
 - Um modelo vazio em `templates/post-template.md` para quem quiser ver o formato típico de um post.
 
@@ -20,7 +20,7 @@ Os posts seguem **kebab-case** com a data no início, para ordenação e leitura
 
 `YYYY-MM-DD-titulo-do-post.md`
 
-Exemplo: `2025-05-02-notas-sobre-um-bug-estranho.md`
+Exemplo de caminho: `posts/2026/05/2026-05-02-notas-sobre-um-bug-estranho.md`
 
 ## Posts recentes
 
@@ -28,4 +28,4 @@ Exemplo: `2025-05-02-notas-sobre-um-bug-estranho.md`
 |------|--------|------|--------|
 | | | | |
 
-Para ver o que já existe, navega por `posts/` (pastas por ano) ou por `drafts/` para rascunhos em curso.
+Para ver o que já existe, navega por `posts/AAAA/MM/` ou por `drafts/` para rascunhos em curso.
