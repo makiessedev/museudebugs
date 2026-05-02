@@ -1,39 +1,31 @@
 # Museu de Bugs
 
-Diário técnico em Markdown (frontmatter YAML), versionado no GitHub — mais para registar o meu dia a dia do que para um «blog de autoridade», mas aberto ao público para quem quiser aprender com a minha experiência.
+Diário técnico em Markdown, versionado aqui no GitHub. É sobretudo um registo do dia a dia de quem escreve; ao mesmo tempo, o repositório (e o site, se existir) ficam públicos para quem quiser folhear notas, erros, ferramentas e opiniões à medida que vão aparecendo.
 
-## Objetivo
+## Sobre o blog
 
-Documentar o meu dia a dia técnico: um caderno para mim — bugs, ferramentas, tecnologia, opiniões pessoais e o que mais me apetecer registar. O foco é utilidade para mim; quem chegar de fora aproveita o que fizer sentido. Repositório (e site, se houver) públicos, sem obrigação de actuar para o público.
+Textos informais sobre **bugs**, **ferramentas**, **tecnologia** e **opiniões pessoais** — o que fizer sentido documentar no momento. Não é um blog de «autoridade»: é experiência partilhada à descoberta.
 
-## Como usar este repositório
+## O que podes encontrar aqui
 
-1. Copia `templates/post-template.md` para `drafts/` ou para `posts/AAAA/` (ano do post).
-2. Preenche o frontmatter: `title`, `date`, `tags`, `status`, `slug`, `description`.
-3. Escreve o corpo nas secções **Introdução**, **Desenvolvimento** e **Conclusão**, ou muda os títulos se preferires.
-4. Guarda imagens em `assets/images/` e referencia-as no Markdown com o caminho que o teu gerador de site esperar.
-5. Quando quiseres «fechar» um post, move-o de `drafts/` para `posts/AAAA/` e ajusta `status` no frontmatter (por exemplo `published`).
+- Artigos em Markdown com frontmatter YAML (`title`, `date`, `tags`, `status`, etc.).
+- Rascunhos e trabalhos em curso em `drafts/`.
+- Posts organizados por ano em `posts/AAAA/`.
+- Imagens de apoio em `assets/images/`.
+- Um modelo vazio em `templates/post-template.md` para quem quiser ver o formato típico de um post.
 
-### Convenção de nomenclatura de ficheiros
+## Convenção dos nomes dos ficheiros
 
-Usa **kebab-case** com a data no início:
+Os posts seguem **kebab-case** com a data no início, para ordenação e leitura no explorador de ficheiros:
 
 `YYYY-MM-DD-titulo-do-post.md`
 
 Exemplo: `2025-05-02-notas-sobre-um-bug-estranho.md`
 
-### Posts recentes
+## Posts recentes
 
 | Data | Título | Tags | Status |
 |------|--------|------|--------|
 | | | | |
 
-*(Atualiza a tabela manualmente quando publicares, ou deixa para um script futuro.)*
-
-### Fluxo de branches (opcional, só tu no repositório)
-
-- **main** — linha principal: o que consideras estado actual e fiável para o blog.
-- **drafts** — branch opcional para experimentar vários rascunhos ou reorganizar pastas sem mexer em `main` até estares satisfeito.
-- **review/nome-do-post** — branch opcional por texto: rever no GitHub (diff, preview) e depois fazer merge em `main`; podes apagar a branch depois do merge.
-
-Se preferires simplicidade, usa só `main` e commits directos; as outras branches são conveniência, não obrigação.
+Para ver o que já existe, navega por `posts/` (pastas por ano) ou por `drafts/` para rascunhos em curso.
